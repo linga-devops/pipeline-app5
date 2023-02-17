@@ -26,7 +26,7 @@ pipeline {
               stage('----Deploy----') 
              {
              steps{
-              echo "This is QA stage"
+              echo "This is Deploy stage"
               echo "===================================="
              }
              }
@@ -34,7 +34,7 @@ pipeline {
               stage('----Monitor----') 
              {
              steps{
-              echo "This is QA stage"
+              echo "This is Monitor stage"
               echo "===================================="
              }
              }
