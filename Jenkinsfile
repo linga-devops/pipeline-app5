@@ -23,6 +23,34 @@ pipeline {
               echo "===================================="
              }
              }
+               stage('----QA_2----') 
+             {
+             steps{
+              echo "This is QA_2 stage"
+              echo "===================================="
+             }
+             }
+               stage('----QA_3----') 
+             {
+             steps{
+              echo "This is QA_3 stage"
+              echo "===================================="
+             }
+             }
+               stage('----QA_4----') 
+             {
+             steps{
+              echo "This is QA_4 stage"
+              echo "===================================="
+             }
+             }
+               stage('----QA_5----') 
+             {
+             steps{
+              echo "This is QA_5 stage"
+              echo "===================================="
+             }
+             }
               stage('----Deploy----') 
              {
              steps{
@@ -36,9 +64,7 @@ pipeline {
              steps{
               echo "This is Monitor stage"
               echo "===================================="
-              echo "===================================="
-              echo "===================================="
-             }
+              }
              }
              
             }
